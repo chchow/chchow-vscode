@@ -1,0 +1,30 @@
+{
+    // @sync-ignore
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    // @sync-ignore
+    // "terminal.integrated.cwd": "C:\\Users\\CC\\01apps\\vscode",
+    // @sync-ignore
+    "git.path": "C:\\Users\\CC\\01apps\\vscode\\tools\\git\\bin\\git.exe",
+    // @sync-ignore
+    "java.home": "C:\\Users\\CC\\01apps\\vscode\\tools\\jdk",
+    // @sync-ignore
+    "terminal.integrated.shellArgs.windows": [
+      "/K",
+      "C:\\Users\\CC\\01apps\\vscode\\tools\\add-tools-to-cmd.bat",
+      "C:\\Users\\CC\\01apps\\vscode\\tools"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "vim.handleKeys": {
+      "<C-f>": false
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
