@@ -1,0 +1,7 @@
+[user]
+	name = Choong Hoe, Chow
+	email = ChoongHoe.Chow@softwareag.com
+[credential]
+	helper = manager
+[pull]
+	rebase = false
