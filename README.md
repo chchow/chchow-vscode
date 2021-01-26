@@ -6,6 +6,7 @@ This Visual Studio Code setup is for development environment for my required too
 2. Choose the terminal of your choice:
   a. Setup for command prompt
   b. Setup for powershell
+3. Git to use Windows Credential Manager
 
 ### 1. Get Tools
 VSCode: Download .zip https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive
@@ -18,3 +19,13 @@ Maven: Download Binary zip archive https://downloads.apache.org/maven/maven-3/3.
 2. Extract Git, NodeJS, Java and Maven into portable-vscode/tools/ directory; naming them git, nodejs, jdk, maven
 
 ### 2a. Setup command prompt
+1. Copy command-prompt/add-tools-to-cmd.bat to portable-vscode/tools/ directory
+2. Copy command-prompt/settings.json settings to VSCode settings.
+3. Start VSCode and open command prompt. Check if the tools versions appears or try by testing the commands
+
+### 2b. Setup powershell
+1. Copy powershell/settings.json settings to VSCode settings.
+2. Start VSCode and open command prompt. Check if the tools working try by testing the commands
+
+### 3. Git to use Windows Credential Manager
+Copy .gitconfig either from powershell or command-prompt into C:\Users\<user>\
