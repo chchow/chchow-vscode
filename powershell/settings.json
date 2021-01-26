@@ -1,0 +1,25 @@
+{
+    // @sync-ignore
+    "git.path": "C:\\Users\\CC\\01apps\\vscode\\tools\\git\\bin\\git.exe",
+    // @sync-ignore
+    "java.home": "C:\\Users\\CC\\01apps\\vscode\\tools\\jdk",
+    "terminal.integrated.shellArgs.windows": "-ExecutionPolicy ByPass",
+    "terminal.integrated.env.windows": {
+      "PATH": "${env:PATH};C:\\Users\\CC\\01apps\\vscode\\tools\\git\\cmd\\;C:\\Users\\CC\\01apps\\vscode\\tools\\nodejs\\;C:\\Users\\CC\\01apps\\vscode\\tools\\jdk\\bin\\;C:\\Users\\CC\\01apps\\vscode\\tools\\maven\\bin\\"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "vim.handleKeys": {
+      "<C-f>": false
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
